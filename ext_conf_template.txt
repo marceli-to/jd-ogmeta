@@ -1,0 +1,11 @@
+# cat=basic/enable; type=string; label=Site name (Name of the Website)
+siteName =
+
+# cat=basic/enable; type=string; label=Suffix for the page title suffix (will be added after the page title)
+pageTitleSuffix =
+
+# cat=basic/enable; type=string; label=Default Open Graph Image (will be used as Fallback, full path needed)
+defaultOpenGraphImage =
+
+# cat=basic/enable; type=text; label=Default Meta Description (will be used if none is specified)
+defaultMetaDescription =

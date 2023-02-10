@@ -1,0 +1,103 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    171,
+                    126
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+                        "set"
+                    ]
+                },
+                "name": "Main",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "1217776526812"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "uid": "433842135065"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "jd_ogmeta",
+        "name": "OpenGraphMetaTags",
+        "originalExtensionKey": "jd_pumptrackmeta",
+        "originalVendorName": "Jamondigital",
+        "persons": [
+            {
+                "company": "Jam'on digital",
+                "email": "marcel@jamon.digital",
+                "name": "Marcel Stadelmann",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Main => set",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "",
+                "key": "jdogmeta",
+                "name": "OpenGraphMetaTags"
+            }
+        ],
+        "vendorName": "Jamondigital"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-03-27 10:32",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}

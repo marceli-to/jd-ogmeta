@@ -1,0 +1,24 @@
+{
+    "name": "jamondigital/jd-ogmeta",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marcel Stadelmann",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jamondigital\\JdOgmeta\\": "Classes"
+        }
+    },
+    "extra": {
+      "typo3/cms": {
+         "extension-key": "jd-ogmeta"
+      }
+   }
+}
